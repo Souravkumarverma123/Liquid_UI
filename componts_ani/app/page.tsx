@@ -119,7 +119,10 @@ export default function Home() {
       </section>
 
       {/* ─── FEATURES SECTION ─── */}
-      <section id="features" className="relative z-10 py-32 px-6 bg-black/40 backdrop-blur-sm">
+      <section
+        id="features"
+        className="relative z-10 py-32 px-6 bg-black/40 backdrop-blur-sm"
+      >
         <div className="relative max-w-7xl mx-auto">
           <div className="text-center mb-20">
             <span className="inline-block px-4 py-1.5 mb-6 text-xs font-semibold tracking-widest uppercase text-[#ffb74d] bg-[#fb8c00]/10 rounded-full border border-[#fb8c00]/25">
@@ -164,7 +167,10 @@ export default function Home() {
       </section>
 
       {/* ─── ABOUT / SHOWCASE SECTION ─── */}
-      <section id="about" className="relative z-10 py-32 px-6 bg-black/40 backdrop-blur-sm">
+      <section
+        id="about"
+        className="relative z-10 py-32 px-6 bg-black/40 backdrop-blur-sm"
+      >
         <div className="relative max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
@@ -188,7 +194,10 @@ export default function Home() {
                   "Optional rain particle system for atmospheric effects",
                   "Zero-dependency client component — loads via CDN",
                 ].map((item, idx) => (
-                  <li key={idx} className="flex items-start gap-3 text-[#E0E0E0]">
+                  <li
+                    key={idx}
+                    className="flex items-start gap-3 text-[#E0E0E0]"
+                  >
                     <span className="mt-1.5 w-2 h-2 rounded-full bg-gradient-to-r from-[#fb8c00] to-[#ffb74d] shrink-0" />
                     <span className="text-sm">{item}</span>
                   </li>
@@ -241,7 +250,10 @@ export default function Home() {
       </section>
 
       {/* ─── FOOTER ─── */}
-      <footer id="contact" className="relative z-10 border-t border-[#27272A] bg-black/50 backdrop-blur-sm">
+      <footer
+        id="contact"
+        className="relative z-10 border-t border-[#27272A] bg-black/50 backdrop-blur-sm"
+      >
         <div className="relative max-w-7xl mx-auto px-6 py-16">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
             {/* Brand */}
