@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { LiquidEffectAnimation } from "@/components/ui/liquid-effect-animation";
 import { Navbar } from "@/components/ui/navbar";
 import {
@@ -208,13 +209,13 @@ export default function Home() {
             {/* Visual card */}
             <div className="relative">
               <div className="relative rounded-3xl overflow-hidden border border-[#27272A] bg-black/40 backdrop-blur-md p-1">
-                <div className="rounded-2xl overflow-hidden aspect-video bg-gradient-to-br from-[#fb8c00]/15 via-[#ff6f00]/10 to-[#ffb74d]/15 flex items-center justify-center">
-                  <div className="text-center p-8">
-                    <Droplets className="w-16 h-16 text-[#fb8c00]/60 mx-auto mb-4" />
-                    <p className="text-[#E0E0E0] text-sm">
-                      Interactive liquid simulation running in the background
-                    </p>
-                  </div>
+                <div className="rounded-2xl overflow-hidden aspect-video relative">
+                  <Image
+                    src="/liquid-showcase.jpg"
+                    alt="Abstract liquid art showcasing flowing orange and amber tones"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
               </div>
               {/* Decorative glow */}
